@@ -10,10 +10,10 @@ int main(){
     int t;
     cin>>t;
     vector<int>vec;
-    for (int i=0 ; i<t ;i++){
-        int y;
-        cin>>y;
-        vec.push_back(y);
+    for (int i=0 ; i<t ; i++){
+        int r;
+        cin>>r;
+        vec.push_back(r);
     }
     int min=*min_element(vec.begin(),vec.end());
     vector<int>fact;
